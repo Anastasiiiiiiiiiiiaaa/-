@@ -1,0 +1,72 @@
+nav{
+    background: #f9f9f9;
+    width: 320px;
+    position: fixed;
+    top: 60px;
+    left: 10px;
+    padding: 10px;
+    /* padding — внутренний отступ */
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height:95vh;
+    /* 95 % от view port */
+    opacity: .1;
+    /* прозрачность 10% */
+    transition: all 0.5 ease;
+    border-radius: 5px;
+}
+
+nav:hover{
+    opacity: 1;
+    transition: all .1s ease;
+}
+/* анимация при наведении на список он становится не прозрачным */
+
+nav p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px!important;
+    /* important — типо оч важно чтобы код понял */
+    word-wrap: break-word;
+    padding-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    /* убираем подчеркивание */
+    font-size: 12px!important;
+    padding-bottom: 3px;
+    word-wrap: break-word;
+    padding-left: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+}
+/* убрали точки где none  */
+
+nav li{
+    margin: 0;
+    line-height: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.sidebar{
+    padding-left: 0;
+}
+.table{
+    word-wrap: break-word;
+    padding: 5px;
+    margin: 5px;
+    width: 280px;
+}
+
+.logotipe{
+    text-decoration: none;
+    color: #aaa;
+    padding-right: 20px;
+}
+
